@@ -1,0 +1,131 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+  
+  /*Header*/
+  
+
+.navbar{
+    display: flex;
+    flex-direction: row!important;
+    align-content: center;
+    height: 10%;
+    width : 100%;
+    background-color: firebrick;
+}
+
+ul {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+    
+}
+    
+nav li a:hover{
+    background-color:firebrick!important;
+    color: white;
+}
+
+/*main*/
+
+.main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+   
+}
+.box{
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: #e79b22ce;
+}
+
+h1{
+    justify-content: center;
+}
+
+.boxy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+
+/*Bibliothèque*/
+
+table {
+    border: medium solid #d1cbcb;
+    border-radius: 2px;
+    }
+
+table th {
+    color: white;
+    background-color: crimson;
+}
+
+tr {
+background-color: rgb(230, 175, 175);
+}
+
+/*Footer*/
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    position:absolute;
+    width: 100%;
+    background-color: firebrick;
+    color: white;
+    text-align: center;
+ }
+
+ footer a{
+    text-decoration: none;
+    color:#e79b22ce;
+ }
+
+
+ 
+ /* Media Queries */
+
+@media screen and (max-width: 400px) {
+    body {
+      background-color:#e79b22ce;
+      background-size: auto;
+      background-repeat: repeat;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    body {
+      background-color: #e79b22ce;
+      background-size: auto;
+      background-repeat: repeat;
+    }
+    form {
+        width:95%;
+    }
+    input[type=text], textarea {
+        width:75%;
+    }
+
+}
+
